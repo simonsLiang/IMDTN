@@ -15,6 +15,6 @@ When calculating 'flops',' activations', 'conv', and 'max memory allocated', the
   
 `if W % window_size != 0:`
 
-  `W = (W//window_size+1)*window_size`
+                      `W = (W//window_size+1)*window_size`
   
 `input_dim = (input_dim[0],H,W)  #(3,258,258)`
