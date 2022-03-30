@@ -16,4 +16,4 @@ If the input size does not meet the requirements, it can be adjusted in the foll
 
 `aug = transforms.Resize((input_dim[-2],input_dim[-1])) #Used to change the input size` 
 
-And `main_challenge_sr.py` is provided to calculate these metrics.
+If you encounter problems, you can refer to `main_challenge_sr.py` to calculate these metrics.
