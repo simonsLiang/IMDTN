@@ -15,3 +15,5 @@ If the input size does not meet the requirements, it can be adjusted in the foll
 `from torchvision import transforms`
 
 `aug = transforms.Resize((input_dim[-2],input_dim[-1])) #Used to change the input size` 
+
+And `main_challenge_sr.py` is provided to calculate these metrics
