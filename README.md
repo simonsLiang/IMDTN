@@ -4,7 +4,7 @@ code for NTIRE 2022 Efficient Super-Resolution Challenge
 
 When calculating 'flops',' activations', 'conv', and 'max memory allocated', the height and width of the input should be a multiple of six.
 
-If the input size does not meet the requirements, it can be adjusted in the following ways
+If the input size does not meet the requirements, it can be adjusted in the following ways:
 
 `input_dim = (3,256,256)`
 
