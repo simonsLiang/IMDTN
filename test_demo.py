@@ -16,11 +16,11 @@ def main():
     # basic settings
     # --------------------------------
     # testsets = 'DIV2K'
-    # testsets = os.path.join(os.getcwd(), 'data')
-    # testset_L = 'DIV2K_test_LR'
+    testsets = os.path.join(os.getcwd(), 'data')
+    testset_L = 'DIV2K_test_LR'
 
-    testsets = '/content/IMDTN/'
-    testset_L = 'DIV2K_valid_LR_bicubic'
+#     testsets = '/content/IMDTN/'
+#     testset_L = 'DIV2K_valid_LR_bicubic'
     
 
     torch.cuda.current_device()
