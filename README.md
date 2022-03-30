@@ -1,7 +1,7 @@
 #IMDTN
 code for NTIRE 2022 Efficient Super-Resolution Challenge
 
-When calculating 'flops',' activations', 'conv', and 'max memory allocated', the height and width of the input dimension should be the multiple of six.
+When calculating 'flops',' activations', 'conv', and 'max memory allocated', the height and width of the input should be the multiple of six.
 
 If the input size does not meet the requirements, it can be adjusted in the following ways
 
