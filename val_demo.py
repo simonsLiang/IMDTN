@@ -16,8 +16,10 @@ def main():
     # basic settings
     # --------------------------------
     # testsets = 'DIV2K'
-    testsets = '/content/IMDTN/'
+    testsets = '/home/thor/projects/data/super_resolution/DIV2K'
     testset_L = 'DIV2K_valid_LR_bicubic'
+#     testsets = '/content/IMDTN/'
+#     testset_L = 'DIV2K_valid_LR_bicubic'
 
     torch.cuda.current_device()
     torch.cuda.empty_cache()
