@@ -3,6 +3,8 @@ code for NTIRE 2022 Efficient Super-Resolution Challenge
 
 When calculating 'flops',' activations', 'conv', and 'max memory allocated', the height and width of the input dimension must be adjusted to a multiple of six first.
 
+If the input size does not meet the requirements, it can be adjusted in the following ways
+
 `input_dim = (3,256,256)`
 
 `H,W = input_dim[-2],input_dim[-1]`
