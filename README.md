@@ -11,3 +11,7 @@ If the input size does not meet the requirements, it can be adjusted in the foll
 `H,W = input_dim[-2],input_dim[-1]`
 
 `input_dim = (input_dim[0],(H//6+1)*6,(W//6+1)*6)  #(3,258,258)`
+
+`from torchvision import transforms`
+
+`aug = transforms.Resize((input_dim[-2],input_dim[-1])) #Used to change the picture size` 
